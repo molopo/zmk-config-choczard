@@ -100,7 +100,7 @@
                                   &kp Q             &kp W &kp F     &kp P    &kp G           &kp J        &kp L            &kp U     &kp Y   &kp BSPC       
                                   &kp A             &kp R &kp S     &kp T    &kp D           &kp H        &kp N            &kp E     &kp I   &kp O          
                                   &bm LSHFT Z       &kp X &kp C     &kp V    &kp B           &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT
-                 &td_multi_windows &none &kp LCTRL &kp LALT &sm LCTRL SPACE &lt CODE TAB &lt NUMBER ENTER &none     &none   &none      
+                 &td_multi_windows &none &kp LCTRL &kp LALT &sm LCTRL &lt CODE &lt NUMBER &none     &none   &none      
             >;
         };
 
@@ -110,7 +110,7 @@
                   &kp Q   &kp W &kp F  &kp P     &kp G     &kp J        &kp L            &kp U     &kp Y   &kp BSPC       
                   &kp A   &kp R &kp S  &kp T     &kp D     &kp H        &kp N            &kp E     &kp I   &kp O          
                   &kp Z   &kp X &kp C  &kp V     &kp B     &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT FSLH 
-                  &kp ESC &kp K &kp J  &kp LCTRL &kp SPACE &lt CODE TAB &lt NUMBER ENTER &none     &none   &none          
+                  &kp ESC &kp K &kp J  &kp LCTRL &kp SPACE &lt CODE &lt NUMBER &none     &none   &none          
             >;
         };
 
