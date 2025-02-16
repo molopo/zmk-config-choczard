@@ -87,10 +87,10 @@
         mac_default_layer {
             display-name = "Mac";
             bindings = <
-                              &kp Q         &kp W    &kp F     &kp P    &kp G                        &kp J     &kp L          &kp U       &kp Y   &kp BSPC       
-                              &kp A         &kp R    &kp S     &kp T    &kp D                        &kp H     &kp N          &kp E       &kp I   &kp O          
-                              &bm LSHFT Z   &kp X    &kp C     &kp V    &kp B                        &kp K     &kp M          &kp COMMA   &kp DOT &bm RSHFT  
-                &td_multi_mac &td_multi_mac          &kp LCTRL          &sm LGUI &kp SPACE  &lt CODE &kp TAB                  &lt NUMBER          &kp BSPC  &kp ENTER      &kp RSHFT
+                        &kp Q         &kp W    &kp F     &kp P    &kp G                            &kp J     &kp L          &kp U       &kp Y   &kp BSPC       
+                        &kp A         &kp R    &kp S     &kp T    &kp D                            &kp H     &kp N          &kp E       &kp I   &kp O          
+                        &bm LSHFT Z   &kp X    &kp C     &kp V    &kp B                            &kp K     &kp M          &kp COMMA   &kp DOT &bm RSHFT  
+                &lt MAC &lt WINDOWS            &lt GAME           &lt CODE &kp SPACE  &lt FUNCTION &kp TAB                  &lt NUMBER          &kp BSPC  &kp ENTER 
             >;
         };
 
