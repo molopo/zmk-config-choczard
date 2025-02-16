@@ -9,7 +9,7 @@
 #define NUMBER 4
 #define FUNCTION 5
 
-
+/ {
     
     keymap {
         compatible = "zmk,keymap";
