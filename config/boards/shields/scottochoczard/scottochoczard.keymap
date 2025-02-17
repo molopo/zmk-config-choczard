@@ -14,9 +14,24 @@
                         &kp Q         &kp W    &kp F     &kp P    &kp G                            &kp J     &kp L          &kp U       &kp Y   &kp BSPC       
                         &kp A         &kp R    &kp S     &kp T    &kp D                            &kp H     &kp N          &kp E       &kp I   &kp O          
                         &kp LSHFT     &kp X    &kp C     &kp V    &kp B                            &kp K     &kp M          &kp COMMA   &kp DOT &kp RSHFT  
-                &kp LSHFT     &kp X    &kp C     &kp V    &kp B                            &kp K     &kp M          &kp COMMA   &kp DOT &kp RSHFT
+                &studio_unlock     &kp X    &kp C     &kp V    &kp B                            &kp K     &kp M          &kp COMMA   &kp DOT &studio_unlock
             >;
         };
 
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
+        extra4 {
+            status = "reserved";
+        };
     };
 };
