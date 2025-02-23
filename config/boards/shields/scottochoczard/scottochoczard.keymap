@@ -21,7 +21,7 @@
 
             label = "MMATTEST";
         };
-    };           
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -40,13 +40,13 @@
 
         lock {
             timeout-ms = <50>;
-            bindings = <&soft_off>;
+            bindings = <&tog 3>;
             key-positions = <30 32 34>;
         };
 
         lockr {
             timeout-ms = <50>;
-            bindings = <&soft_off>;
+            bindings = <&tog 3>;
             key-positions = <35 37 39>;
         };
     };
@@ -77,8 +77,17 @@
             bindings = <
         &bootloader  &studio_unlock  &bt BT_CLR     &studio_unlock  &bootloader                  &bootloader  &studio_unlock  &trans  &studio_unlock  &bootloader
         &trans       &trans          &bt BT_DISC 0  &trans          &trans                       &trans       &trans          &trans  &trans          &trans
-        &kp Z       &trans          &trans         &trans          &trans                       &trans       &trans          &trans  &trans          &kp Z
+        &trans       &trans          &trans         &trans          &trans                       &trans       &trans          &trans  &trans          &trans
 &trans  &trans                       &trans                         &trans       &trans  &trans  &trans                       &trans                  &trans       &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans          &trans  &trans  &trans  &trans          &trans          &trans  &trans
             >;
         };
     };
