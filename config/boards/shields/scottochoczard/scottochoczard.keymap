@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     macros {
@@ -71,10 +71,10 @@
 
         bootloader {
             bindings = <
-        &bootloader  &studio_unlock  &trans  &trans  &bootloader                  &bootloader  &trans  &trans  &studio_unlock  &bootloader
-        &trans       &trans          &trans  &trans  &trans                       &trans       &trans  &trans  &trans          &trans
-        &trans       &trans          &trans  &trans  &trans                       &trans       &trans  &trans  &trans          &trans
-&trans  &trans                       &trans          &trans       &trans  &trans  &trans               &trans                  &trans       &trans
+        &bootloader  &studio_unlock  &bt BT_CLR     &studio_unlock  &bootloader                  &bootloader  &studio_unlock  &trans  &studio_unlock  &bootloader
+        &trans       &trans          &bt BT_DISC 0  &trans          &trans                       &trans       &trans          &trans  &trans          &trans
+        &trans       &trans          &trans         &trans          &trans                       &trans       &trans          &trans  &trans          &trans
+&trans  &trans                       &trans                         &trans       &trans  &trans  &trans                       &trans                  &trans       &trans
             >;
         };
     };
